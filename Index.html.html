@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #012dcc;
+        }
+
+        h1 {
+            color: #ffe600;
+        }
+
+        details {
+            border: 1px solid #CCCCCC;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        img {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello, Cats Lover!</h1>
+
+
+    <details>
+        <summary>Click to expand</summary>
+        <p>Hidden content appears here!</p>
+    </details>
+    <img src="images.jpg" alt="A cute cat" width="300">
+    <button id="mybtn">Lick</button>
+
+<script>
+document.getElementById("mybtn")
+.addEventListener("click", function () {
+alert("Oh!, Stoooooop! You are licking me!");
+});
+</script>
+</body>
+
+</html>
